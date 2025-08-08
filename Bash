@@ -1,0 +1,6 @@
+# Basic Python packages (use a virtualenv)
+pip install speechrecognition pyttsx3 requests beautifulsoup4 opencv-python face_recognition Pillow pygame wikipedia schedule matplotlib pyperclip
+
+# Optional but recommended
+pip install openai  # If you want GPT integration
+pip install python-dotenv  # to store API keys in .env

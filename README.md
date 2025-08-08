@@ -13,10 +13,18 @@ A Python-based personal voice assistant that can listen to your commands, answer
 
 ## Project Structure
 jarvis-ai/
-    ├── jarvis.py                # Main program file
-    ├── config.py                # API keys and configuration
-    ├── requirements.txt         # Required Python libraries
-    └── modules/                 # Extra command modules
+│
+├── jarvis.py              # Main program file
+├── config.py              # API keys and configuration
+├── requirements.txt       # Required Python libraries
+├── README.md              # Project documentation
+│
+└── modules/               # Folder for extra command modules
+    ├── __init__.py
+    ├── weather.py
+    ├── news.py
+    ├── jokes.py
+    └── wikipedia_search.py
 
 ## Prerequisites
 - Python 3.8 or above
